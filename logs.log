@@ -1,0 +1,205 @@
+2023-10-17 10:11:53,058:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-17 10:11:53,058:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-17 10:11:53,058:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-17 10:11:53,058:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-17 10:11:53,400:INFO:Initializing load_model()
+2023-10-17 10:11:53,400:INFO:load_model(model_name=my_first_api, platform=None, authentication=None, verbose=True)
+2023-10-17 10:14:04,628:INFO:Initializing predict_model()
+2023-10-17 10:14:04,629:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001D5A1F26880>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('target_transformation',
+                 TransformerWrapperWithInverse(transformer=TargetTransformer(estimator=PowerTransformer(standardize=False)))),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Carat Weight'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Cut', 'Color', 'Clarity',
+                                             'P...
+                ('onehot_encoding',
+                 TransformerWrapper(include=['Cut', 'Color', 'Clarity',
+                                             'Polish', 'Symmetry'],
+                                    transformer=OneHotEncoder(cols=['Cut',
+                                                                    'Color',
+                                                                    'Clarity',
+                                                                    'Polish',
+                                                                    'Symmetry'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=4608))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001D5A1F07280>)
+2023-10-17 10:14:04,629:INFO:Checking exceptions
+2023-10-17 10:14:04,629:INFO:Preloading libraries
+2023-10-17 10:14:04,629:INFO:Set up data.
+2023-10-17 10:14:04,632:INFO:Set up index.
+2023-10-17 10:17:40,988:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-17 10:17:40,988:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-17 10:17:40,988:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-17 10:17:40,988:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-17 10:17:41,225:INFO:Initializing load_model()
+2023-10-17 10:17:41,225:INFO:load_model(model_name=my_first_api, platform=None, authentication=None, verbose=True)
+2023-10-17 10:17:56,346:INFO:Initializing predict_model()
+2023-10-17 10:17:56,346:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000017BA199EDF0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('target_transformation',
+                 TransformerWrapperWithInverse(transformer=TargetTransformer(estimator=PowerTransformer(standardize=False)))),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Carat Weight'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Cut', 'Color', 'Clarity',
+                                             'P...
+                ('onehot_encoding',
+                 TransformerWrapper(include=['Cut', 'Color', 'Clarity',
+                                             'Polish', 'Symmetry'],
+                                    transformer=OneHotEncoder(cols=['Cut',
+                                                                    'Color',
+                                                                    'Clarity',
+                                                                    'Polish',
+                                                                    'Symmetry'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=4608))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017BA1989040>)
+2023-10-17 10:17:56,346:INFO:Checking exceptions
+2023-10-17 10:17:56,346:INFO:Preloading libraries
+2023-10-17 10:17:56,346:INFO:Set up data.
+2023-10-17 10:17:56,348:INFO:Set up index.
+2023-10-17 11:54:45,867:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-17 11:54:45,867:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-17 11:54:45,867:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-17 11:54:45,868:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-17 11:54:46,162:INFO:Initializing load_model()
+2023-10-17 11:54:46,163:INFO:load_model(model_name=my_first_api, platform=None, authentication=None, verbose=True)
+2023-10-17 11:55:05,293:INFO:Initializing predict_model()
+2023-10-17 11:55:05,294:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002C23CA1EE20>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('target_transformation',
+                 TransformerWrapperWithInverse(transformer=TargetTransformer(estimator=PowerTransformer(standardize=False)))),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Carat Weight'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Cut', 'Color', 'Clarity',
+                                             'P...
+                ('onehot_encoding',
+                 TransformerWrapper(include=['Cut', 'Color', 'Clarity',
+                                             'Polish', 'Symmetry'],
+                                    transformer=OneHotEncoder(cols=['Cut',
+                                                                    'Color',
+                                                                    'Clarity',
+                                                                    'Polish',
+                                                                    'Symmetry'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=4608))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002C23CA09040>)
+2023-10-17 11:55:05,294:INFO:Checking exceptions
+2023-10-17 11:55:05,294:INFO:Preloading libraries
+2023-10-17 11:55:05,294:INFO:Set up data.
+2023-10-17 11:55:05,297:INFO:Set up index.
+2023-10-17 11:55:08,415:INFO:Initializing predict_model()
+2023-10-17 11:55:08,415:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002C23CA1E910>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('target_transformation',
+                 TransformerWrapperWithInverse(transformer=TargetTransformer(estimator=PowerTransformer(standardize=False)))),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Carat Weight'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Cut', 'Color', 'Clarity',
+                                             'P...
+                ('onehot_encoding',
+                 TransformerWrapper(include=['Cut', 'Color', 'Clarity',
+                                             'Polish', 'Symmetry'],
+                                    transformer=OneHotEncoder(cols=['Cut',
+                                                                    'Color',
+                                                                    'Clarity',
+                                                                    'Polish',
+                                                                    'Symmetry'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=4608))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002C23C9CB3A0>)
+2023-10-17 11:55:08,415:INFO:Checking exceptions
+2023-10-17 11:55:08,415:INFO:Preloading libraries
+2023-10-17 11:55:08,415:INFO:Set up data.
+2023-10-17 11:55:08,420:INFO:Set up index.
+2023-10-17 11:59:03,142:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-17 11:59:03,143:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-17 11:59:03,143:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-17 11:59:03,143:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-17 11:59:03,388:INFO:Initializing load_model()
+2023-10-17 11:59:03,388:INFO:load_model(model_name=my_first_api, platform=None, authentication=None, verbose=True)
+2023-10-17 14:50:55,724:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-17 14:50:55,724:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-17 14:50:55,724:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-17 14:50:55,724:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-17 14:50:55,994:INFO:Initializing load_model()
+2023-10-17 14:50:55,994:INFO:load_model(model_name=my_first_api, platform=None, authentication=None, verbose=True)
+2023-10-17 14:51:38,436:INFO:Initializing predict_model()
+2023-10-17 14:51:38,436:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000019A97C1FE50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('target_transformation',
+                 TransformerWrapperWithInverse(transformer=TargetTransformer(estimator=PowerTransformer(standardize=False)))),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Carat Weight'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Cut', 'Color', 'Clarity',
+                                             'P...
+                ('onehot_encoding',
+                 TransformerWrapper(include=['Cut', 'Color', 'Clarity',
+                                             'Polish', 'Symmetry'],
+                                    transformer=OneHotEncoder(cols=['Cut',
+                                                                    'Color',
+                                                                    'Clarity',
+                                                                    'Polish',
+                                                                    'Symmetry'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=4608))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000019A97C08040>)
+2023-10-17 14:51:38,436:INFO:Checking exceptions
+2023-10-17 14:51:38,437:INFO:Preloading libraries
+2023-10-17 14:51:38,437:INFO:Set up data.
+2023-10-17 14:51:38,441:INFO:Set up index.
+2023-10-29 20:36:30,576:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-29 20:36:30,577:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-29 20:36:30,578:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-29 20:36:30,578:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-29 20:36:31,720:INFO:Initializing load_model()
+2023-10-29 20:36:31,720:INFO:load_model(model_name=my_first_api, platform=None, authentication=None, verbose=True)
+2023-10-30 16:03:30,432:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-30 16:03:30,433:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-30 16:03:30,434:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-30 16:03:30,434:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-10-30 16:03:31,086:INFO:Initializing load_model()
+2023-10-30 16:03:31,087:INFO:load_model(model_name=my_first_api, platform=None, authentication=None, verbose=True)
